@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Home from './coloshop/home/Home'
+import Home from './selling/home/Home'
 
 
 

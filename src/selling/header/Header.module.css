@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    background-color: #f5f6f7;
+    padding: 20px 0;
+}
+
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    gap: 6px;
+}
+
+.socials svg {
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 6px;
+    font-size: 16px;
+    width: 18px;
+    height: 18px;
+    box-sizing: content-box;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.socials svg:hover {
+    background-color: orange;
+    color: white;
+}
+
+.contact {
+    display: flex;
+    gap: 32px;
+    font-size: 15px;
+}
+
+.contact span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+.contact svg {
+    color: #f16821;
+    font-size: 16px;
+}
+
+
+.email {
+    font-size: 18px !important;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 15px 0;
+}
+
+
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 38px;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.dot {
+    color: orange;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 5px 20px;
+    font-size: 1rem;
+}
+
+.navLinks li {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.navLinks li:hover {
+    color: orange;
+}
+
+.LiHome{
+    color: #f16821;
+}
+
+.hero {
+    position: relative;
+    background-image: url('https://preview.colorlib.com/theme/selling/images/hero_2.jpg');
+    background-size: cover;
+    background-position: 50% -108px;
+    height: 90vh;
+    display: flex;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    align-items: center;
+    justify-content: center;
+}
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.overlay .container {
+    color: white;
+    padding-left: 13rem;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title {
+    font-size: 75px;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+    line-height: 0;
+    max-width: 600px;
+}
+
+
+
+.subtitle {
+    font-size: 1.2rem;
+
+}
+
+.buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.shopBtn {
+    padding: 1rem 2.9rem;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.shopBtn:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.clubBtn {
+    padding: 0.8rem 2.8rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.clubBtn:hover {
+    background-color: white;
+    color: black;
+}

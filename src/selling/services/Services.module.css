@@ -1,0 +1,263 @@
+.servicesSection {
+    text-align: center;
+    padding: 5rem 1rem;
+    background-color: #f8f9fa;
+}
+
+.subHeading {
+    font-size: 0.9rem;
+    color: gray;
+    letter-spacing: 2px;
+    margin-bottom: 0.2rem;
+}
+
+.heading {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 0.2rem;
+    margin-bottom: 3rem;
+}
+
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.card {
+    background-color: transparent;
+    width: 340px;
+    text-align: left;
+}
+
+.cardContent {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.icon {
+    font-size: 2.2rem;
+    color: #f97316;
+    flex-shrink: 0;
+    margin-top: 0.3rem;
+}
+
+.textContent {
+    flex: 1;
+}
+
+.title {
+    font-size: 1.2rem;
+    color: #6b7280;
+    margin: 0 0 0.6rem 0;
+}
+
+.desc {
+    color: #6b7280;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    max-width: 320px;
+    word-wrap: break-word;
+}
+
+
+.learnMore {
+    color: #f97316;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.learnMore:hover {
+    text-decoration: underline;
+}
+
+
+.testimonialSection {
+    text-align: center;
+    padding: 5rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .subheading {
+    color: #94a3b8;
+    font-size: 0.85rem; 
+    letter-spacing: 2px;
+    margin-bottom: 0.7rem;
+  }
+   
+  .heading {
+    font-size: 2.2  rem; 
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+  }
+  
+  .avatar {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2.5rem;
+  }
+  
+  .quote {
+    font-style: italic;
+    font-size: 1rem; 
+    color: #444;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  
+  .author {
+    font-weight: 550;
+    font-size: 1.2rem; 
+  }
+  
+  .blogSection {
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .subHeading {
+    color: #999;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 60px;
+  }
+  
+  .cardContainer {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 340px;
+    background: white;
+    text-align: left;
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .cardTitle {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .cardMeta {
+    font-size: 16px;
+    color: #999;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .category {
+    color: rgb(255, 111, 0);
+    font-weight: 500;
+  }
+  
+  .cardText {
+    font-size: 17px;
+    color: #898989;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .readMore {
+    color:rgb(255, 111, 0);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+.blogSection {
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .subHeading {
+    color: #999;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 60px;
+  }
+  
+  .cardContainer {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 340px;
+    background: white;
+    text-align: left;
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .cardTitle {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  .cardMeta {
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .category {
+    color: rgb(255, 111, 0);
+    font-weight: 500;
+  }
+  
+  .cardText {
+    font-size: 14px;
+    color: #898989;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .readMore {
+    color:rgb(255, 111, 0);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
